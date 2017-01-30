@@ -5,7 +5,8 @@ metadata:
   name: dsp-hello-world-ingress
 spec:
   rules:
-  - http:
+  - host: developer-induction-shabe.notprod.homeoffice.gov.uk
+    http:
       paths:
       - backend:
           serviceName: dsp-hello-world-service
